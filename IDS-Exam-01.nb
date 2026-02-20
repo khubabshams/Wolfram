@@ -1,0 +1,69 @@
+Notebook[{Cell[
+BoxData[RowBox[{RowBox[{"chrchil"," ","="," ",RowBox[{"{",RowBox[
+{"7.4",","," ","6.7",",","8.9"}],"}"}]}],";",RowBox[{"aviva","=",RowBox[{"{",RowBox[
+{"8.3",",","8.91",",","4.7"}],"}"}]}],";",RowBox[{"tesco","=",RowBox[{"{",RowBox[
+{"3.8",",","6.3",",","8.1"}],"}"}]}],";"}]],"Input",CellLabel -> "In[10]:= ",ExpressionUUID -> "20c18d7f-bbee-45ef-b421-ac7630ba4456"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"MinMax","@","chrchil"}],",",RowBox[{"Mean","@","chrchil"}]}],"}"}]],
+"Input",CellLabel -> "In[7]:= ",ExpressionUUID -> "be0640d3-69c8-4f1f-a03c-f6158d52d95c"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"6.7`",",","8.9`"}],"}"}],",","7.666666666666667`"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[7]= ",ExpressionUUID -> "e1f93c43-0222-4e11-8801-35c92d373cd6"]},
+Open],ExpressionUUID -> "0b28735d-603a-4016-b22c-02a6764246b2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"MinMax","@","aviva"}],",",RowBox[{"Mean","@","aviva"}]}],"}"}]],
+"Input",CellLabel -> "In[6]:= ",ExpressionUUID -> "09a81bb7-aafe-4b64-afa9-8f263d38d7e9"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"4.7`",",","8.91`"}],"}"}],",","7.303333333333334`"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[6]= ",ExpressionUUID -> "bc5d04b1-355c-4106-a7ef-626477a34121"]},
+Open],ExpressionUUID -> "21aa2b95-e667-4434-8d52-85b7ea0112ad"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"MinMax","@","tesco"}],",",RowBox[{"Mean","@","tesco"}]}],"}"}]],
+"Input",CellLabel -> "In[11]:= ",ExpressionUUID -> "333d7174-0133-40cf-8d79-40c43a493954"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"3.8`",",","8.1`"}],"}"}],",","6.066666666666666`"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[11]= ",ExpressionUUID -> "27079a59-8daa-4100-ac4c-961b2f67e487"]},
+Open],ExpressionUUID -> "f1f6d62a-0ac3-4f37-8e40-0e47b1e1c18a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Max","[",RowBox[{"{",RowBox[{RowBox[{"Mean","@","chrchil"}],","," ",RowBox[
+{"Mean","@","aviva"}],","," ",RowBox[{"Mean","@","tesco"}]}],"}"}],"]"}]],"Input",
+CellLabel -> "In[12]:= ",ExpressionUUID -> "6604c97d-22ba-4765-96e8-f3876bb74d61"],Cell[
+BoxData[
+"7.666666666666667`",StandardForm],"Output",CellLabel -> "Out[12]= ",ExpressionUUID -> "4f95f562-d840-405f-9485-936fa9742ef1"]},
+Open],ExpressionUUID -> "eeb14972-5008-4af5-8012-f698e16c2a8f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"Max","@","chrchil"}],",",RowBox[{"Max","@","aviva"}],","," ",RowBox[
+{"Max","@","tesco"}]}],"}"}]],"Input",CellLabel -> "In[16]:= ",ExpressionUUID -> "e0bd01c1-09b7-425c-9414-e69dcf18d739"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"8.9`",",","8.91`",",","8.1`"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[16]= ",ExpressionUUID -> "5bc9e9f4-c05f-43c6-9fe7-b1884b6bd948"]},
+Open],ExpressionUUID -> "0e189025-fbb8-4227-8ba4-3c06165695d8"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"Min","@","chrchil"}],",",RowBox[{"Min","@","aviva"}],","," ",RowBox[
+{"Min","@","tesco"}]}],"}"}]],"Input",CellLabel -> "In[17]:= ",ExpressionUUID -> "a3874cfc-eb5c-4944-a5d5-96c6ac9ce186"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"6.7`",",","4.7`",",","3.8`"}],"}"}],StandardForm],"Output",CellLabel -> "Out[17]= ",
+ExpressionUUID -> "9fe5ef9e-6417-41fb-a443-d63a92783614"]},Open],ExpressionUUID -> "55bcb8d7-1b5e-4aeb-8bdd-867c81a5b895"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Max","[",RowBox[{"Flatten","[",RowBox[{"{",RowBox[{RowBox[
+{"Max","@","chrchil"}],",",RowBox[{"Max","@","aviva"}],","," ",RowBox[{"Max","@","tesco"}]}],"}"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[14]:= ",ExpressionUUID -> "8be577ca-0f53-4f61-a143-bb24510b0ed6"],Cell[
+BoxData[
+"8.91`",StandardForm],"Output",CellLabel -> "Out[14]= ",ExpressionUUID -> "dc273a9d-7813-4376-81f6-ea640a0b9316"]},
+Open],ExpressionUUID -> "9cc21889-caf2-4748-9464-a1d93d08be1e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Max","[",RowBox[{"Flatten","[",RowBox[{"{",RowBox[{RowBox[
+{"Min","@","chrchil"}],",",RowBox[{"Min","@","aviva"}],","," ",RowBox[{"Min","@","tesco"}]}],"}"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[15]:= ",ExpressionUUID -> "b70148e0-d559-48f7-b5d1-57ebb116957d"],Cell[
+BoxData[
+"6.7`",StandardForm],"Output",CellLabel -> "Out[15]= ",ExpressionUUID -> "69361623-485b-4625-9162-04d24635c573"]},
+Open],ExpressionUUID -> "15e7952f-44c4-43c8-8f8c-ef2d2c92584e"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "14.3 for Wolfram Cloud 1.75 (December 9, 2025)"]
